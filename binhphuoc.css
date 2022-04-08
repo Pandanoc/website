@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background-image: url(images/du-lich-thanh-pho-dong-xoai-binh-phuoc.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 2000px;
+    
+}
+/* menu */
+#menu {
+    background-color: pink;
+    position: fixed;
+    /* top: -50px;  */
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    z-index: 100;
+}
+ul{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+}
+ul li{
+    border-radius: 20px;
+    border: 2px solid rgb(185, 160, 160);
+}
+ul >li>a:hover{
+    border-radius: 20px;
+    border: 2px solid lightblue;
+    background-color: lightblue;
+}
+ul>li>a{
+    text-decoration: none;
+    display: block;
+    min-width: 120px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+ul>:nth-child(6){
+    margin-left: auto;
+}
+/* ten tỉnh */
+.binhduong {
+    height: 200px;
+    color: rgb(199, 25, 25);
+}
+/* san pham*/
+.cacsanpham {
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    height: 1100px;
+   }
+   .sanpham {
+    width: 40%;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    margin: 5px;
+    box-shadow: 2px 3px 2px black;
+    margin-top: 30px;
+    height: 550px;
+    background-color: rgb(53, 146, 177);
+   }
+   .sanpham > div > h2 {
+    text-align: center;
+    color: brown;
+    margin-bottom: 10px;
+   }
+   .sanpham > h3 {
+    text-align: center;
+    color: darkblue;
+    font-size: 16px;
+   }
+   .sanpham > p {
+    text-align: justify;
+    text-indent: 20px;
+    color: white;
+    font-size: 15px;
+   }
+   .sanpham > div > img {
+    height: 200px;
+    width: 300px;
+    transition: transform ease 1s;
+    display: block; margin-left: auto; margin-right: auto;
+   }
+   .sanpham img:hover {
+    transform: scale(1.1);
+   }
+
+/* footer */
+footer {
+    background-color: gray;
+    clear: both;
+    margin-top: 700px; 
+}
+/* nhớ chỉnh margin */
+#logocuoi {
+    height: 100px;
+}
+#bct {
+    height: 100px;
+}
+.MXH {
+    width: 40%;
+}

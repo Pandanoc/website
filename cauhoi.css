@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+.phandau {
+    display: flex;
+    background-color: lightpink;  
+    padding-left: 70px; 
+    
+}
+.phandau > ul > li > a {
+    text-decoration: none;
+    display: block;
+    min-width: 120px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+#one {
+    padding-top: 10px;
+}
+#two {
+    margin-left: 5px;
+    padding-top: 10px;
+}
+#three {
+    border-left:2px solid lightcoral;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+#four {
+    margin-left: 5px;
+    padding-top: 10px;
+}
+.dangnhap {
+    list-style-type: none;
+    display: flex;
+    margin: auto;
+    padding-left: 60%;
+}
+/* phần menu */
+ul{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+}
+ul li{
+    border-radius: 20px;
+    border: 2px solid rgb(185, 160, 160);
+}
+ul >li>a:hover{
+    border-radius: 20px;
+    border: 2px solid lightblue;
+    background-color: lightblue;
+}
+ul>li>a{
+    text-decoration: none;
+    display: block;
+    min-width: 120px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+ul>:nth-child(6){
+    margin-left: auto;
+}
+/* form */
+.formall {
+    position:absolute;
+    left: 30%;
+    width: 100%;
+    padding-top: 100px;
+}
+/* form cau hỏi */
+.tinhmail {
+    display: flex;
+}
+.email {
+    margin-left: 280px;
+}
+/* form người hỏi */
+.hoithoai {
+    display: flex;
+}
+.dienthoai {
+    margin-left: 100px;
+}
+/* footer */
+footer {
+    background-color: gray;
+    clear: both;
+    margin-top: 750px; 
+}
+/* nhớ chỉnh margin */
+#logocuoi {
+    height: 100px;
+}
+#bct {
+    height: 80px;
+}
+.MXH {
+    width: 40%;
+}

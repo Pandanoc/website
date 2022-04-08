@@ -1,0 +1,135 @@
+:root {
+    --main-color:#191F3A;
+}
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+.phandau {
+    display: flex;
+    background-color: lightpink;  
+    padding-left: 70px; 
+    
+}
+.phandau > ul > li > a {
+    text-decoration: none;
+    display: block;
+    min-width: 120px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+#one {
+    padding-top: 10px;
+}
+#two {
+    margin-left: 5px;
+    padding-top: 10px;
+}
+#three {
+    border-left:2px solid lightcoral;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+#four {
+    margin-left: 5px;
+    padding-top: 10px;
+}
+.dangnhap {
+    list-style-type: none;
+    display: flex;
+    margin: auto;
+    padding-left: 60%;
+}
+/* phần menu */
+ul{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+}
+ul li{
+    border-radius: 20px;
+    border: 2px solid rgb(185, 160, 160);
+}
+ul >li>a:hover{
+    border-radius: 20px;
+    border: 2px solid lightblue;
+    background-color: lightblue;
+}
+ul>li>a{
+    text-decoration: none;
+    display: block;
+    min-width: 120px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+ul>:nth-child(6){
+    margin-left: auto;
+}
+
+.phanba > img {
+    width: 100%;
+}
+/* footer*/
+footer {
+    background-color: gray;
+    clear: both;
+    margin-top: 700px; 
+}
+#logocuoi {
+    height: 100px;
+}
+#bct {
+    height: 100px;
+}
+.MXH {
+    width: 40%;
+}
+
+/* thông tin khách hàng */
+
+/* Các mặt hàng của trang  */
+.cacsanpham {
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    height: 1100px;
+   }
+   .sanpham {
+    width: 40%;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 5px;
+    box-shadow: 2px 3px 2px black;
+   }
+   .sanpham > div > h2 {
+    text-align: center;
+    color: brown;
+    margin-bottom: 10px;
+    
+   }
+   .sanpham > h3 {
+    text-align: center;
+    color: darkblue;
+    font-size: 16px;
+   }
+   .sanpham > p {
+    text-align: justify;
+    text-indent: 20px;
+   }
+   .sanpham > div > img {
+    height: 200px;
+    width: 300px;
+    transition: transform ease 1s;
+    display: block; margin-left: auto; margin-right: auto;
+   }
+   .sanpham img:hover {
+    transform: scale(1.1);
+   }
+   

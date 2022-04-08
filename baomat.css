@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* menu */
+#menu {
+    background-color: pink;
+    /* position: fixed; */
+    /* top: -50px;  */
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    z-index: 100;
+}
+.meniu {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+}
+.meniu > li{
+    border-radius: 20px;
+    border: 2px solid rgb(185, 160, 160);
+}
+.meniu >li>a:hover{
+    border-radius: 20px;
+    border: 2px solid lightblue;
+    background-color: lightblue;
+}
+.meniu > li > a{
+    text-decoration: none;
+    display: block;
+    min-width: 120px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+.meniu >:nth-child(6){
+    margin-left: auto;
+}
+.khachhang {
+    margin-left: 400px;
+    width: 1200px;
+    padding-top: 15px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
