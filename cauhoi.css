@@ -86,12 +86,6 @@ ul>:nth-child(6){
 .dienthoai {
     margin-left: 100px;
 }
-/* footer */
-footer {
-    background-color: gray;
-    clear: both;
-    margin-top: 750px; 
-}
 /* nhớ chỉnh margin */
 #logocuoi {
     height: 100px;
