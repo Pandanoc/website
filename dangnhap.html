@@ -3,15 +3,35 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Login to LỘC HOUSE</title>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-3.4.1.min.js"></script>		
-	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 	<link rel="stylesheet" href="dangnhap.css">
     <link rel="icon" href="images/logo.jpg">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	<script lang="Javascript">
+		function kiemtradangnhap(){
+			var l = document.getElementById("loginUser");
+			if(l.value =="")
+			{
+				alert("Bạn chưa nhập tên đăng nhập.");
+				l.focus();
+				return false;
+			}
+			
+			var o = document.getElementById("loginPwd");
+			if(o.value =="")
+			{
+				alert("Bạn chưa nhập mật khẩu.");
+				o.focus();
+				return false;
+			}
+			alert("Bạn đã đăng nhập thành công!");
+			return true;
+		}
+	</script>
 </head>
+
 <body>
+	
 	<div class="login-wrapper">
-		<form action="" class="form">
+		<form action="" class="form" onsubmit="return kiemtradangnhap()">
 			<img src="image/avatar1.png" alt="">
 			<h2>Đăng nhập</h2>
 			<div class="input-group">
@@ -22,7 +42,7 @@
 				<input type="password" name="loginPwd" id="loginPwd" required>
 				<label for="loginPwd">Mật khẩu</label>
 			</div>
-			<input type="submit" value="đăng nhập" class="submit-btn"><br/><br/>
+			<input type="submit" value="đăng nhập" class="submit-btn" onclick="return kiemtradangnhap()"><br/><br/>
 			<a href="#forgot-pwd" class="forgot-pwd">Quên mật khẩu</a> <br/>
 		</form>
 		
@@ -34,10 +54,11 @@
 					<input type="email" name="email" id="email" required>
 					<label for="email">Nhập Email</label>
 				</div>
-				<input type="submit" value="Submit" class="submit-btn">
+				<input type="submit" value="Submit" class="submit-btn" >
 			</form>
 		</div>
 	</div>
 
 </body>
+
 </html>
